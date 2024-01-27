@@ -23,5 +23,7 @@ rabit = Rabit()
 fish = Fish()
 hawk = Hawk()
 
-fish.sleep()
-fish.swim()
+fish.sleep() # This animal is sleeping
+fish.swim() # Fish is swimming
+
+# python.exe

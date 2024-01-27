@@ -8,16 +8,20 @@ class Animal:
         print('This animal is sleeping')
 
 class Rabit(Animal):
-    pass
+    def run(self):
+        print('Rabit is running')
 
 class Fish(Animal):
-    pass
+    def swim(self):
+        print('Fish is swimming')
 
 class Hawk(Animal):
-    pass
+    def fly(self):
+        print('Hawk is flying')
 
 rabit = Rabit()
 fish = Fish()
 hawk = Hawk()
 
-fish.sleep
+fish.sleep()
+fish.swim()
